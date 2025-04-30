@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 793px;
+    height: 828px;
+    background-color: #5e5a5a;
+    padding: 30px;
+    border-radius: 15px;
+  }
+
+  body{
+    background-color: #929292;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+ }
+  
+  label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 29px;
+  }
+
+input, button{
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0px;
+  }
+
+  button{
+    background-color: #868686;
+    color: #000000;
+    width: 20%;
+  }
+
+  .botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vh;
+  }
